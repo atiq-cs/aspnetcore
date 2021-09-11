@@ -29,8 +29,3 @@ Example run,
     $ dotnet run
 
 Verbose Example At [SqLite-Run Example wikipage](SqLite-Run.md)
-
-### VS Pro SQL Data Explorer
-Server:
-
-    (localdb)\MSSQLLocalDB
