@@ -1,0 +1,45 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Welcome to Sporty!";
+}
+
+<div class="row mb-auto">
+<div class="text-center">
+    <h1 class="display-4">Sporty App</h1>
+    Sporty, connecting athletes.
+</div>
+
+<table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Events[0].Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Events[0].Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Events[0].Duration)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+      <tbody>
+        @foreach (var item in Model.Events)
+        {
+        <tr>
+            <td>
+            @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+            @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+            @Html.DisplayFor(modelItem => item.Duration)
+            </td>
+        </tr>
+        }
+      </tbody>
+    </table>
+</div>
