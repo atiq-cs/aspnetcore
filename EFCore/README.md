@@ -1,5 +1,5 @@
 ## EFCore Template from Sporty App
-Extracts minimalist versin from
+Extracts minimalist version from
 [dotnet/AspNetCore.Docs/tree/main/aspnetcore/data/ef-rp/intro/samples/cu50](https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/data/ef-rp/intro/samples/cu50)
 
 Documentation is at [MS Docs aspnet/core/data/ef-rp/intro](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro)
